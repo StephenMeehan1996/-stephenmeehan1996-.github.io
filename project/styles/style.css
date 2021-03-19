@@ -1,0 +1,166 @@
+
+
+nav
+{
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em; 
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: black;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+    
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: darkblue;
+}
+h1
+{
+ background-color: grey;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    border-bottom: 0px;
+    
+}
+
+.article {
+    text-align: center;
+    margin: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 2px solid black;
+    
+}
+
+
+
+footer 
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+footer p
+{
+    text-align: center;
+    color: white;
+}
+p{
+ font-size: 25px;
+    text-align: center;
+    margin: 50px;
+}
+#landing 
+{
+    width: 30%;
+    color: white;
+  background-color: #383737; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+    
+  
+
+   margin-top: 600px;
+        
+
+}
+
+
+
+#landingH 
+{
+    background-color: #383737; 
+    color: white;
+    font-size: 32px;
+    margin-top: 0px;
+    
+}
+
+.banner {
+    height: 700px;
+    width: 67%;
+    margin-left: 300px;
+    background-color: #484545;
+    background-image: url(../images/pexels-karolina-grabowska---resize.jpg), url(../images/pexels-alesia-kozik-resize.jpg),url(../images/pexels-nataliya-vaitkevich-resize.jpg);
+    background-position: right, left,center;
+    background-position: absolute,absolute,absolute;
+    margin: 0px,0px,0px;
+    padding: 0px,0px,0px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.col_detail
+{
+    font-size: 15px;
+    color: red;
+    margin-top:;
+    width: 1250px;
+   
+    word-wrap: break-word;
+    column-count: 3;
+    column-rule: 2px solid red;
+    column-gap: 100px;
+    padding: 2px;
+}
+
+
+
+.videoHeadings {
+    text-align: center;
+}
+
+.videos {
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 40px;
+    height 300px;
+    width: 100%;
+    
+}
+
+#news {
+    background-color: grey;
+    
+    float: left;
+    width: 40%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.newspage {
+    background-image: url(../images/news_background.jpg);
+}

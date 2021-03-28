@@ -15,24 +15,12 @@ Modified:
     <link rel= "stylesheet" type= "text/css" href="styles/style.css">
     <title>NewsLetter</title>
 </head>        
-<body> <!-- Body Tag starts section display on screen-->
+<body id = nPage> <!-- Body Tag starts section display on screen-->
    
         <header>
-            <img style = "float: left;  height:165px;"  src="images/Bull_logo_original.jpg"alt ="logo">
+            <img style = "float: left;  height:162px;"  src="images/New-Logo.jpg"alt ="logo">
             <h1>Cryto Bull</h1>
-       </header>
-    
             <Nav>
-                
-    <style>
-           body
-                {
-                    background-image: url(images/backgroud_image.jpg);
-                    height: 100%;
-                    width: 100%; 
-                 }
-    
-    </style>
             <ul>
                 <li><a href = "homepage.html">Home</a></li>
                 <li><a href = "news.html">News</a></li>
@@ -41,10 +29,37 @@ Modified:
                 
             </ul>
             </Nav>
+       </header>
     
-    <main><!-- wrapper mthat goes around main content-->
-        
+    <main>
+        <section class = "newsletter">
+        <h2>Newsletter Subscription</h2>
+            <p>Please fill out our short questionnaire and subscribe to our newsletter for all the latest in the crypto space</p>
+            <section class = "form" >
+        <form action="/action_page.php" method="get" name="myForm">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="cars">How did you hear about us:</label>
+            <select id="options" name="options">
+                <option value="friend">From a friend</option>
+                <option value="add">Online add</option>
+                <option value="mag">Add in Magazine</option>
+                <option value="pod">Podcast</option>
+            </select><br><br>
+
+                <label for="email">Email address:</label>
+                 <input type="text" id="email" name="email"><br><br>
+                 <label for="Message">Message:</label>
+                <textarea name=”message”></textarea>
+                 <br><br>         
+                <input type="button" style="margin-left: 35px;" onclick="formSubmit()" value="Send form data!">
+        </form>
+        </section>
+        </section>
     </main>
+    
     <footer>
             <p>Copyright 2021 Stephen Meehan</p>
     </footer>

@@ -33,17 +33,40 @@ Modified:
        </header>
     
     <main>
+        
+        <article class = "whySignUp">
+            <img class = floatLeft src="images/bitcoin-6108562_1920.jpg" alt = "coin">
+            <img class = floatRight src="images/ethereum_background.jpg" alt = "ethCoin">
+        
+            <section  class="newsText">
+            
+                <h2 class = newsHeading>Newsletter</h2>
+            <h4 class = "newsHeading" style="margin-left: 35%;">Why sign up?</h4>
+                
+            
+          <ul class = "newsList">
+                     <li>Get up to date information on the moving markets.</li> <!--Changed from default bullet point-->
+                     <li>Get our price predictions directly to your email. </li>
+                     <li>We will give you the best advice on when is the best time to buy or sell coins in your portfolio.</li>
+                     <li>Advice on how to get the best return on your investment</li>
+                 </ul>
+                 
+            </section>
+           
+          
+        </article>
+        
         <section class = "newsletter">
         <h2>Newsletter Subscription</h2>
-            <p>Please fill out our short questionnaire and subscribe to our newsletter for all the latest in the crypto space</p>
-            <p > Mandatory fields marked with <span class="last-word"> * </span></p>
+            <p class="formText">Please fill out our short questionnaire and subscribe to our newsletter for all the latest in the crypto space</p>
+            <p class= "formText"> Mandatory fields marked with <span class="last-word"> * </span></p>
             <section class = "form" > 
         <form action="/http://foo.com" method="get" name="myForm"> 
                 <label class="required" for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
                 <label class="required" for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
-                <label class="required" for="hear">How did you hear about us:</label>
+                <label class="required" for="options">How did you hear about us:</label>
             <select id="options" name="options">
                 <option value="friend">From a friend</option>
                 <option value="add">Online add</option>      
@@ -53,8 +76,8 @@ Modified:
 
                 <label class="required" for="email">Email address:</label>
                  <input type="text" id="email" name="email"><br><br>
-                 <label for="Message">Message:</label>
-                <textarea name=”message”></textarea>
+                 <label for="message">Message:</label>
+                <textarea name=”message” id="message"></textarea>
                  <br><br>         
                 <input type="button" style="margin-left: 35px;" onclick="formSubmit()" value="Send form data!">
         </form>
@@ -77,7 +100,7 @@ Modified:
          <h2 class="foot_heading">Explore</h2>
         <ul class="foot_list">
             
-             <li class id = "active"><a href = "homepage.html">Home</a></li>
+                <li ><a href = "homepage.html">Home</a></li>
                 <li><a href = "news.html">News</a></li>
                 <li><a href = "creators.html">Recommended Creators</a></li>
                 <li><a href ="newletter.html">Newsletter Sign Up</a></li>   

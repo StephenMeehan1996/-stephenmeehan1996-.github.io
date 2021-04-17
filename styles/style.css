@@ -6,9 +6,16 @@ height: 170px;
     
 }
 
+
 body
 {
 font-family: sans-serif; /* selected font */
+padding-top 0;
+margin-top: 0;
+padding-bottom: 0;
+margin-bottom: 0;
+
+
 }
 
 header
@@ -16,7 +23,7 @@ header
     background-image: linear-gradient(to right, #312b2b , #655c5c);
     height: 171px;
     color: white;
-    
+    width: 100%;
 }
 
 /* Nav styling */
@@ -117,12 +124,12 @@ margin-bottom: 200px;
 .col_detail
 {
    text-align: left;
-    width: 100%;
-    margin-left: 0;
+    width: 95%;
+    margin-left: 2%;
     column-count: 3;
     column-rule: 2px solid red;
     column-gap: 50px;
-    padding: 2px;
+    padding: 1%;
     background-color: grey;
     margin-top: 0;
     font-size: 1.4em;
@@ -134,6 +141,8 @@ margin-bottom: 200px;
 .videoHeadings 
 {
     text-align: center;
+    margin-top: 10px;
+    padding: 1%;
 }
 
 .videos 
@@ -141,8 +150,10 @@ margin-bottom: 200px;
     background-color: grey;
     text-align: center;
     padding-bottom: 40px;
-    height: 300px;
+    height: inherit;
     width: 100%;
+    padding 2%;
+   
     
 }
 
@@ -189,7 +200,7 @@ margin-bottom: 200px;
 
 #nPage 
 {
-    background-image: url(../images/form_background_resize.jpg);
+    background-image: url(../images/sub_background.jpg);
     background-repeat: no-repeat;
 }
 
@@ -279,14 +290,15 @@ margin-bottom: 200px;
 {
    text-align: left;
     width: 70%;
-    margin-left: 0;
+    margin-left: 0%;
     column-count: 3;
     column-rule: 2px solid red;
-    column-gap: 2%;
+    column-gap: 6%;
     font-size: 1.3em;
     background-color: grey;
     margin-top: 0; 
     padding: 1%;
+    
     
 }
 
@@ -327,22 +339,27 @@ margin-bottom: 200px;
 .form /*Newsletter sub*/
 {
     background-color: darkgray;
-    width: 14%;
-    margin-left: 43%;
+    width: 18%;
+    margin-left: 39%;
     margin-top: 15px;
-    padding: 2%;
+    padding: 3%;
     border-radius: 20px;
     margin-bottom: 1.5%;
     text-align: left;
 }
 .newsletter 
 {
+   
     text-align: center;
-    background-color: grey;
+    background-color: gray;
     border: 1px solid black;
     margin-top: 100px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
+    margin-left: 15%;
     padding-bottom: 25px;
+     width: 70%;
+    border-radius: 30px;
+    font-size: 0.9em;
     
 }
 
@@ -544,4 +561,92 @@ footer
 {
     background-image:url(../images/maintenance-2422169_1920.jpg);
         
+}
+
+
+
+.youtube 
+{
+     width: 65%;
+    height: inherit;
+    background-color: gray;
+    margin-left: 17%;
+    margin-top: 50px;
+    
+    margin-bottom: 50px;
+    padding: 1%;  
+}
+
+.youtube_pic 
+{
+      float: left;
+   height: 180px;
+   width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.whySignUp 
+{
+    width 90%;
+    margin: 5%;
+    height: 500px;
+     background-color: gray;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+.newsText 
+{
+   background-color: darkgray;
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 50px;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 1.5%;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.newsHeading {
+    margin-left: 33%;
+    color: white;
+}
+
+.newsList 
+{
+    color: #f8f8f8;
+     list-style-type: square;
+}
+
+
+.formText 
+{
+    font-size: 1.3em;
+    margin-left: 3%;
+}
+
+.floatLeft 
+{
+    float: left;
+     width: 30%;
+    height: 300px;
+    margin-top: 6%;
+}
+
+.floatRight 
+{
+   
+   float: right;
+    width: 30%;
+    height: 300px;
+    margin-top: 6%;
+  
+    
+  
 }
